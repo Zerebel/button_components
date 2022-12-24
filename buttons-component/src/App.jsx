@@ -39,7 +39,7 @@ function App() {
     return (button.textContent = 'menu');
   };
   return (
-    <main className="bg-[#ffffff] md:h-screen lg:h-auto px-2 md:px-0 relative">
+    <main className="bg-[#ffffff] md:h-screen lg:h-auto px-2 md:px-0">
       <div className="flex flex-col md:flex-row md:h-full relative">
         <span
           className="material-icons self-end text-3xl cursor-pointer md:hidden menu-button"
@@ -202,7 +202,7 @@ function App() {
             </div>
           </div>
           {/* last 3 rows */}
-          <div className="flex flex-col gap-y-6 w-full bg-orange-100  mx-4 mt-6">
+          <div className="flex flex-col gap-y-6 w-full mx-4 mt-6">
             <table className="">
               <tbody>
                 <tr className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-y-6">
@@ -311,8 +311,23 @@ function App() {
                 </tr>
               </tbody>
             </table>
+            {/* footer */}
+            <div className="flex flex-col gap-4 py-4 my-4 text-[#828282] text-base">
+              <Anchor
+                text={'Icons: https://material.io/resources/icons/?style=round'}
+                link={'https://material.io/resources/icons/?style=round'}
+              />
+              <p>
+                created by{' '}
+                <Anchor
+                  text={'Zerebel'}
+                  link={'https://github.com/Zerebel'}
+                  className={'font-bold'}
+                />{' '}
+                - devChallenges.io
+              </p>
+            </div>
           </div>
-          <div className="">buttom</div>
         </article>
       </div>
     </main>
