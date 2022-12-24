@@ -1,0 +1,30 @@
+{
+  "name": "button_components",
+  "version": "1.0.0",
+  "description": "Creating a reusable button with all the states in the devChallenge design and a page displaying all the states.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerebel/button_components.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "vite",
+    "js",
+    "tailwind",
+    "button",
+    "devChallenge",
+    "react",
+    "jsx"
+  ],
+  "author": "Zerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zerebel/button_components/issues"
+  },
+  "homepage": "https://github.com/Zerebel/button_components#readme"
+}
