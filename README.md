@@ -79,4 +79,4 @@ $ npm start
 ## Contact
 
 - GitHub [@Zerebel](https://github.com/zerebel)
-- Twitter [@Zerebel\_](https://twitter.com/zerebel_)
+- Twitter [@Zerebel_](https://twitter.com/zerebel_)
